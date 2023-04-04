@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.gradient_btn {
+  background: linear-gradient(
+    103.91deg,
+    #9b51e0 21.01%,
+    rgba(48, 129, 237, 0.8) 100%
+  );
+}
+
+.pink_gradient {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 123px;
+  height: 123px;
+  border-radius: 50%;
+
+  background: #fb37ff;
+  filter: blur(200px);
+}
+
+.blue_gradient {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  width: 123px;
+  height: 123px;
+  border-radius: 50%;
+
+  background: #18b2de;
+  filter: blur(200px);
+}
+
+.gradient-bg-welcome {
+  background-color:#072129;
+  background-image: 
+    radial-gradient(at 0% 0%, rgb(6, 3, 26) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
+}
+
+.text-gradient {
+  background-color: #fff;
+  background-image: radial-gradient(at 4% 36%, hsla(0,0%,100%,1) 0, transparent 38%), radial-gradient(at 100% 60%, rgb(190, 72, 117) 0, transparent 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-glassmorphism {
+  background: rgb(39, 51, 89, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* white glassmorphism */
+.white-glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.gradient-border {
+  background: linear-gradient(
+    168.82deg,
+    #fb37ff 1.7%,
+    rgba(155, 111, 238, 0) 27.12%,
+    rgba(123, 127, 234, 0) 61.28%,
+    #1bb2de 99.52%
+  );
+}
